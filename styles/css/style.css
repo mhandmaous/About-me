@@ -11,10 +11,21 @@
   font-family: Aussiente;
   src: url("/styles/fonts/Aussiente.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Impact label";
+  src: url("/styles/fonts/Impact\ Label.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Admiration Pains";
+  src: url("/styles/fonts/Admiration\ Pains.ttf") format("truetype");
+}
 body {
   color: #0d2746;
   font-family: "David Libre",Helvetica, sans-serif;
   font-weight: 500;
+}
+li{
+  list-style: none;
 }
 p,li{
   opacity: 0.7;
@@ -42,20 +53,54 @@ nav a {
 }
 
 #main h3 {
-  font-size: 1.25rem;
   padding: 1rem;
   margin-bottom: 1rem;
   background-color: rgb(22, 64, 104);
   color: azure;
+  position: sticky;
+  top: 0rem;
+  width: 100%;
+  opacity: 1;
+  display: inline-flex;
 }
+#main>h3{
+  font-family: 'Raleway', 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+.signature{
+  /* display: inline-block; */
+  font-family: Aussiente, 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-align: left;
+  position: relative;
+  left: 80%;
+}
+
+.signature a:link{
+  color: rgb(154, 176, 190);
+  text-decoration: none;
+}
+.signature a:visited {
+  color: rgb(154, 176, 190);
+}
+.signature a:hover{
+  color: #ffffff;
+}
+
 .aboutme  {
+  margin-top: 0.75rem;
   padding-left: 1rem;
 }
 .aboutme p{
+  font-size: 1.25rem;
   margin: 0.8rem;
+  margin-top: 0.2rem;
+  line-height: 2rem;
 }
 .aboutme ul{
-  padding-left: 3rem;
+  padding-left: 0rem;
   line-height: 1.9rem;
   margin: 1.25rem 0;
 }
@@ -79,11 +124,18 @@ th{
 td{
   border: rgb(22, 64, 104) solid 3px;
   padding: 0;
+  border-right: none;
 }
 li{
   text-align: center;
+  font-size: 2rem;
+  opacity: 1;
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 table{
+  padding: 1rem;
+  background-color: rgb(233, 245, 245);
   margin: 1.25rem auto;
   border-collapse: collapse;
 }
@@ -95,8 +147,38 @@ table{
   padding-top: 1rem;
 
 }
-.football{
-  tab-size: 25rem;
+
+.programming {
+  background-image: url("/styles/images/code.jpg");
+  height: 29rem;
+  background-size: 95rem;
+  margin-left: -1rem;
+  margin-top: 1.25rem;
+}
+.programming{
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  font-family: "Impact label", 'Times New Roman', Times, serif;
+  padding: 20rem 1.5rem 2rem 60rem;
+  line-height: 1.9rem;
+
+}
+
+.shows img {
+  margin-top: 1rem;
+  padding: 0.2rem;
+  width: 94rem;
+  height: 55rem;
+  border: rgba(9, 48, 80, 0.164) solid 10px;
+  margin-left: -1rem;
+}
+.caption {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: #141f36;
+  font-family: "Raleway", 'Times New Roman', Times, serif;
+  font-weight: 900;
+    
 }
 
 
@@ -127,16 +209,15 @@ table{
 
 footer{
   margin-top: 5rem;  
-  color: rgb(171, 196, 218);
-  background-color: rgb(18, 37, 56);
-  display: inline-block;
+  color: rgb(188, 199, 207);
+  background-color: rgb(7, 26, 46);
   width: 100%;
-  padding: 1.6rem;
-  padding-bottom: 1rem;
+  padding: 2rem;
+  padding-bottom: 2.5rem;
   text-align: left;
   opacity: 0.9;
-
-
+  margin-bottom: 0;
+  font-family: 'Playfair Display', Geneva, Verdana, sans-serif;
 }
 footer .copyrights {
   text-align: right;
@@ -145,20 +226,4 @@ footer .copyrights {
   right: 1rem;
   font-size: 0.75rem;
   opacity: 1 !important;
-}
-footer .signature{
-  /* display: inline-block; */
-  font-family: Aussiente, 'Times New Roman', Times, serif;
-  font-size: 1.25rem;
-  font-weight: 900;
-}
-.signature a:link{
-  color: rgb(154, 176, 190);
-  text-decoration: none;
-}
-.signature a:visited {
-  color: rgb(154, 176, 190);
-}
-.signature a:hover{
-  color: #ffffff;
 }
