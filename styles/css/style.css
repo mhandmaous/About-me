@@ -1,0 +1,92 @@
+* {
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #0d2746;
+  font-family: "David Libre",Helvetica, sans-serif;
+  font-weight: 500;
+}
+p,li{
+  opacity: 0.7;
+
+}
+/* #logo img{
+  margin: 0 auto;
+} */
+nav {
+  text-align: center;
+  opacity: 0.7;
+}
+nav a {
+  margin: 1rem 3.8em;
+  text-decoration-line: none;
+  color: rgb(15, 45, 70);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+nav a {
+  display: inline-block;
+  list-style-type: none;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#main h3 {
+  font-size: 1.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(22, 64, 104);
+  color: azure;
+}
+.aboutme  {
+  padding-left: 1rem;
+}
+.aboutme p{
+  margin: 0.8rem;
+}
+.aboutme ul{
+  padding-left: 3rem;
+  line-height: 1.9rem;
+  margin: 1.25rem 0;
+}
+/* .img{
+  overflow: hidden;
+}
+.img img{
+  position: relative;
+  width: 95rem ;
+  object-fit: scale-down;
+  /* padding: 0 0.2rem; 
+} */
+footer{
+  margin-top: 5rem;
+  text-align: right;
+  padding: 1.75rem;
+}
+th{
+  border: 0px;
+  padding: 0 1rem;
+  border-top:   rgb(22, 64, 104) solid 3px;
+  border-bottom:  rgb(22, 64, 104) solid 3px;
+  table-layout: initial;
+
+}
+
+li{
+  text-align: center;
+}
+table{
+  margin: 1.25rem auto;
+  border: rgb(22, 64, 104) dotted 3px;
+  border-top: none;
+}
+.td {
+  width: 18rem;
+  height: 10rem;
+  padding: 10px;
+}
+.football{
+  tab-size: 25rem;
+}
