@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Brilliant";
+  src: url("/styles/fonts/Brilliant.ttf") format("truetype");
+}
+@font-face {
+  font-family: Aussiente;
+  src: url("/styles/fonts/Aussiente.ttf") format("truetype");
+}
 body {
   color: #0d2746;
   font-family: "David Libre",Helvetica, sans-serif;
@@ -60,33 +68,97 @@ nav a {
   object-fit: scale-down;
   /* padding: 0 0.2rem; 
 } */
-footer{
-  margin-top: 5rem;
-  text-align: right;
-  padding: 1.75rem;
-}
+
 th{
   border: 0px;
   padding: 0 1rem;
   border-top:   rgb(22, 64, 104) solid 3px;
   border-bottom:  rgb(22, 64, 104) solid 3px;
   table-layout: initial;
-
 }
-
+td{
+  border: rgb(22, 64, 104) solid 3px;
+  padding: 0;
+}
 li{
   text-align: center;
 }
 table{
   margin: 1.25rem auto;
-  border: rgb(22, 64, 104) dotted 3px;
-  border-top: none;
+  border-collapse: collapse;
 }
 .td {
   width: 18rem;
   height: 10rem;
-  padding: 10px;
+  border-bottom: white solid 3px;
+  padding: 0 0.25rem;
+  padding-top: 1rem;
+
 }
 .football{
   tab-size: 25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  margin-top: 5rem;  
+  color: rgb(171, 196, 218);
+  background-color: rgb(18, 37, 56);
+  display: inline-block;
+  width: 100%;
+  padding: 1.6rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  opacity: 0.9;
+
+
+}
+footer .copyrights {
+  text-align: right;
+  display: inline;
+  position: absolute;
+  right: 1rem;
+  font-size: 0.75rem;
+  opacity: 1 !important;
+}
+footer .signature{
+  /* display: inline-block; */
+  font-family: Aussiente, 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.signature a:link{
+  color: rgb(154, 176, 190);
+  text-decoration: none;
+}
+.signature a:visited {
+  color: rgb(154, 176, 190);
+}
+.signature a:hover{
+  color: #ffffff;
 }
