@@ -149,7 +149,7 @@ table{
 }
 
 .programming {
-  background-image: url("/styles/images/code.jpg");
+  background-image: url("./styles/images/code.jpg");
   height: 29rem;
   background-size: 95rem;
   margin-left: -1rem;
