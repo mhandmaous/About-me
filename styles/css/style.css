@@ -8,7 +8,7 @@
   src: url("./styles/fonts/Brilliant.ttf") format("truetype");
 }
 @font-face {
-  font-family: Aussiente;
+  font-family: 'Aussiente';
   src: url("./styles/fonts/Aussiente.ttf") format("truetype");
 }
 @font-face {
@@ -70,7 +70,7 @@ nav a {
 }
 .signature{
   /* display: inline-block; */
-  font-family: Aussiente, 'Times New Roman', Times, serif;
+  font-family: 'Aussiente', 'Times New Roman', Times, serif;
   font-size: 1.25rem;
   font-weight: 900;
   text-align: left;
