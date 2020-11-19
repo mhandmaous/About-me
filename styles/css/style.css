@@ -5,19 +5,19 @@
 }
 @font-face {
   font-family: "Brilliant";
-  src: url("/styles/fonts/Brilliant.ttf") format("truetype");
+  src: url("./styles/fonts/Brilliant.ttf") format("truetype");
 }
 @font-face {
   font-family: Aussiente;
-  src: url("/styles/fonts/Aussiente.ttf") format("truetype");
+  src: url("./styles/fonts/Aussiente.ttf") format("truetype");
 }
 @font-face {
   font-family: "Impact label";
-  src: url("/styles/fonts/Impact\ Label.ttf") format("truetype");
+  src: url("./styles/fonts/Impact\ Label.ttf") format("truetype");
 }
 @font-face {
   font-family: "Admiration Pains";
-  src: url("/styles/fonts/Admiration\ Pains.ttf") format("truetype");
+  src: url("./styles/fonts/Admiration\ Pains.ttf") format("truetype");
 }
 body {
   color: #0d2746;
